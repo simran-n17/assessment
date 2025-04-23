@@ -160,7 +160,9 @@ INSERT INTO users (name, email) VALUES
 SELECT * FROM users;
 
 ```
-
+![Alt text](img1.png)
+![Alt text](img2.png)
+![Alt text](img3.png)
 9. Create a Dockerfile for Streamlit
 
 ```bash
@@ -189,5 +191,8 @@ Now we will run this command to do this:
 ```bash
 docker run --name streamlit_ap --network mybridge -p 8501:8501 streamlit_app
 ```
+![Alt text](streamlit.jpeg)
+
+
 
 THANK YOU.
